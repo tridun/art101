@@ -1,0 +1,23 @@
+body{
+  background-color: #F5895B;
+}
+
+header{
+  color: #361E14;
+  margin-left: 20px;
+}
+
+#content {
+  background-color: #F3DCCB;
+  margin: 10px;
+  padding: 10px;
+  color: #361E14;
+}
+
+#screenshots {
+  text-align: center;
+}
+
+#screenshots img{
+  margin: 30px;
+}

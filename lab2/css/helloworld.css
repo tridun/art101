@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+  font-size: 200%;
+  margin: auto;
+  width: 50%;
+  border: 3px solid orange;
+  padding: 10px;
+}
+p {
+  font-style: normal;
+  font-family: "Gill Sans Extrabold", system-ui;
+  border: 2px solid powderblue
+}
+#content {
+  margin: auto;
+  width: 50%;
+  border: 5px solid green;
+  padding: 12px;
+}
