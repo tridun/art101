@@ -1,0 +1,25 @@
+body {
+  background-color: #F5D825;
+}
+
+header {
+  padding-left: 40px;
+  color: #fa702f;
+  text-shadow: 2px 2px #3B1A0B;
+  font-family: 'Sofia';
+}
+
+img {
+  width: 30px;
+  padding-top: 0;
+}
+
+#content {
+  background-color: #F6FAEB;
+  color: #fa9d07;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

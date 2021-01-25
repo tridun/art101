@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 4</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../css/site.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 </head>
 <body>
+	<header>
+		<h1>Lab 4: Pseudocoding and Problem-solving
+			<img src="img/lemon.png" alt="lemon image" width= 5% />
+			<img src="img/rock.png" alt="rock image" width= 5% />
+			<img src="img/paper.png" alt="paper image"/>
+			<img src="img/scissors.png" alt="scissors image"/>
+		</h1>
 
+	</header>
+
+	<div id="content">
+		<h2>Challenge</h2>
+		<p>The overall challenge of this assignment was to get used to the idea of
+			writing pseudocode by breaking down problems into high-level instructions.
+		<h2>Problems</h2>
+			<p>For Task 1 of this lab we created pseudocode for an everyday task. We chose to consult online recipes
+				own personal experience to create instructions for making lemonade.<br><br>For Task 2 we created pseudocode
+				for a computer task. We chose to write pseudocode for a rock-paper-scissors game.<br><br>For Task 3 we turned
+				the pseudocode for the computer task into comments.<br><br>We encountered few issues while completing these
+				tasks but had a little difficulty stream-lining our lists to be simple yet descriptive.
+			</p>
+		<h2>Results</h2>
+		<h3>Task 1: Making Lemonade</h3>
+		<p>
+			<ol>
+	  		<li>Place pitcher on counter</li>
+	  		<li>Cut 6 seedless lemons in half</li>
+	  		<li>Squeeze all lemon halves into pitcher</li>
+				<li>Pour 3 cups of cold water into the pitcher</li>
+				<li>Add one cup of granulated white sugar into the pitcher</li>
+				<li>Mix all ingredients thoroughly with spoon</li>
+				<li>Add ice cubes to glass</li>
+				<li>Pour serving of lemonade into glass</li>
+		  </ol>
+		</p>
+		<h3>Task 2: Creating a Rock Paper Scissors Game</h3>
+		<p>
+			<ol>
+				<li>Create a list of play options</li>
+					<ol type="a"> <li>Rock, Paper, Scissors</li> </ol>
+				<li>Have the computer randomly select one of the list options</li>
+					<ol type="a">
+						<li>Use randomizer function for play options 0-2</li>
+					</ol>
+				<li>Ask for user input</li>
+				<li>Test for win condition/tie</li>
+					<ol type="a">
+						<li>Use if/else if/else statements to compare player and computer inputs</li>
+					</ol>
+			</ol>
+		</p>
+		<h3>Task 3: Commenting the pseudocode for Rock-Paper-Scissors:</h3>
+		<pre>
+			// Import random integer function
+
+			// Make an array of strings containing "Rock", "Paper", and "Scissors"
+
+			// Assign a random play to the computer from 0-2 using random integer picker function
+				//(rock = 0, paper = 1, scissors = 3)
+
+			// Ask for user input
+			  // Use conditionals to test for appropriate input
+			    // If not one of the 3 options, print error
+
+			// Test for win condition using if else statements
+			  // If user_input beats computer_input
+			    // Print "YOU WIN" - user_input + " beats " + computer_input + "!"
+			  // If else computer_input beats user_input
+			    // Print "YOU LOSE" - computer_input + " beats " + user_input + " :("
+			  // Else
+			    // Print "It's a tie!"
+		</pre>
+	</div>
 </body>
 </html>
