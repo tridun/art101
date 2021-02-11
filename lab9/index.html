@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab 9 - JavaScript for the Web</title>
+  <script src="js/lab.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="css/lab.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <div id="backHome">
+    <a href="../index.html">Back to Home</a>
+  </div>
+</head>
+<body>
+  <div id="content">
+    <h1>Lab 9 - JavaScript for the Web</h1>
+
+    <h2 id="h2">Challenges</h2>
+
+  	<p id="challenge">The challenge of this lab was to experiment with DOM manipulation.</p>
+
+    <h2>Problems</h2>
+
+    <p>The biggest problem was trying to figure out how to change the HTML
+      attribute once it was created. This was solved by using the createTextNode()
+     function plus the use of a button in the HTML file to help activate the function.</p>
+
+    <h2 id="h3">Results</h2>
+
+    <p><i>Script Output</i></p>
+    <div id="output">
+      <p>Click on the button below:</p>
+      <button onclick="newElFunction()">Push Me!</button>
+    </div>
+    <div id = "secondOutput">
+      <p>Click on this button to destroy this beautiful page:</p>
+      <button onclick="cssEdits()">Push Me?!</button>
+    </div>
+  </div>
+</body>
+</html>
