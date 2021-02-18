@@ -1,0 +1,47 @@
+h1{
+  text-align: center;
+  border: double;
+  border-color: #361E14;
+  padding: 10px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 20px;
+  font-family: 'Monoton';
+  font-size: 300%;
+}
+
+.special{
+  background-color: #86F7D7;
+}
+
+h2{
+  font-family: 'Abril Fatface';
+  font-size: 175%;
+}
+
+p{
+  font-size: 150%;
+  line-height: 1cm;
+}
+
+body{
+  background-color: #F5895B;
+}
+
+#backHome{
+  text-align: right;
+  padding-right: 10px;
+}
+
+#output{
+  font-size: 100%;
+}
+
+#content{
+  background-color: #F3DCCB;
+  border: double;
+  border-color: #361E14;
+  margin: 10px;
+  padding: 25px;
+  color: #361E14;
+}
