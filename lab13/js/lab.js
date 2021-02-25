@@ -6,13 +6,13 @@
  **/
 
  // Create a "FizzBuzz" function similar to how we did in class.
-function fizzBuzzBoom(){
+function fizzBuzzBoom(num){
 
   var str = "";
   var bigStr = "";
 
   // Loop through numbers 1 to 200, listing them as you go
-  for(var i = 1; i <= 200; i++){
+  for(var i = 1; i <= num; i++){
 
     // If the number is a multiple of 3, if should print "Fizz!"
     if(i%3==0){
@@ -30,9 +30,9 @@ function fizzBuzzBoom(){
     }
 
     // Bonus Task 1: adding another value set to "Bang!"
-    // if(i%4==0){
-    //   str+="Bang";
-    // }
+     if(i%4==0){
+       str+="Bang";
+     }
     // checks if none of the above values are met
     // if so, prints number
     if(str == ""){
@@ -55,5 +55,11 @@ function fizzBuzzBoom(){
   //
   $("#output").html(bigStr);
 }
-// Don't forget to call your function.
-fizzBuzzBoom();
+
+$("#button").click(function(){
+  // gets input value from user
+  var number = $('#input').val();
+  
+  // Don't forget to call your function.
+  fizzBuzzBoom(number);
+});
