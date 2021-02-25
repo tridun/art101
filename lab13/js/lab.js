@@ -29,10 +29,16 @@ function fizzBuzzBoom(){
       str+="Boom";
     }
 
+    // Bonus Task 1: adding another value set to "Bang!"
+    // if(i%4==0){
+    //   str+="Bang";
+    // }
     // checks if none of the above values are met
     // if so, prints number
     if(str == ""){
       str+=i;
+    }else{
+      str+="!"
     }
 
     // new line
